@@ -1,0 +1,15 @@
+{
+  "name": "test_wasm_webgl",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "test_wasm_webgl_bg.wasm",
+    "test_wasm_webgl.js",
+    "test_wasm_webgl.d.ts"
+  ],
+  "main": "test_wasm_webgl.js",
+  "types": "test_wasm_webgl.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
